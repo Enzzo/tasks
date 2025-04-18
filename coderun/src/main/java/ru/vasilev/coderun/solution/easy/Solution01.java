@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Solution01 {
-	
+public class Solution01 {	
 	public void calculate() {
 		try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
 			String[] parts = reader.readLine().split(" ");
